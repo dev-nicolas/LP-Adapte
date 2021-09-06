@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Blinker;
+  color: white;
+}
+
+body {
+  background-color: #122d87;
+}
+
+body section:nth-of-type(1) h4 {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+body section:nth-of-type(1) section {
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+  top: -12vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16.6% 16.6% 16.6% 50%;
+      grid-template-columns: 16.6% 16.6% 16.6% 50%;
+      grid-template-areas: "box-1 box-2 box-3 box-4" "box-5 box-6 box-7 box-4";
+}
+
+body section:nth-of-type(1) section .box-1 {
+  padding-left: 25%;
+}
+
+body section:nth-of-type(1) section .box-2 {
+  padding-left: 25%;
+}
+
+body section:nth-of-type(1) section .box-3 {
+  padding-left: 25%;
+}
+
+body section:nth-of-type(1) section .box-4 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  grid-area: box-4;
+  font-size: 2.5rem;
+  padding-left: 5%;
+  padding-right: 10%;
+  border-style: solid;
+  border-color: #122d87 #122d87 #122d87 white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section:nth-of-type(1) section .box-4 p {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+body section:nth-of-type(1) section .box-5 p {
+  text-align: center;
+  padding: 5%;
+}
+
+body section:nth-of-type(1) section .box-6 p {
+  text-align: center;
+  padding: 5%;
+}
+
+body section:nth-of-type(1) section .box-7 p {
+  text-align: center;
+  padding: 5%;
+}
+
+body section:nth-of-type(2) .box1principal {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: "box1 box2" "box3 box2";
+}
+
+body section:nth-of-type(2) .Bcopys {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: box1;
+  padding-left: 12%;
+}
+
+body section:nth-of-type(2) .Bcopys p {
+  margin-bottom: 5vh;
+  width: 75%;
+}
+
+body section:nth-of-type(2) .Bcopys h1 {
+  margin-bottom: 5vh;
+  font-size: 2rem;
+}
+
+body section:nth-of-type(2) .Btopicos {
+  padding-left: 12%;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: box3;
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: 10% 90%;
+      grid-template-areas: "box1 bo5" "box2 bo6" "box3 bo7" "box4 bo8";
+  grid-row-gap: 3vh;
+}
+
+body section:nth-of-type(2) .Btopicos .ok1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: box1;
+}
+
+body section:nth-of-type(2) .Btopicos .ok2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: box2;
+}
+
+body section:nth-of-type(2) .Btopicos .ok3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: box3;
+}
+
+body section:nth-of-type(2) .Btopicos .ok4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: box4;
+}
+
+body section:nth-of-type(2) .Btopicos p {
+  width: 75%;
+}
+
+body section:nth-of-type(2) .Bformulario {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: box2;
+}
+
+#logoAdapte {
+  position: absolute;
+  top: 10vh;
+  left: 35%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=lp.css.map */
